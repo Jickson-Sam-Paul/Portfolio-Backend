@@ -1,0 +1,55 @@
+## ABOUT
+
+I am a frontend developer with 2.5+ years of professional experience building production-grade web applications, specializing in Vue 3 and React. My focus is on designing scalable, maintainable UI systems that translate complex backend logic into intuitive user experiences.
+
+I currently work at Intellect Design Arena in Chennai, where I contribute to enterprise platforms involving AI workflows, orchestration systems, and large data-heavy applications used by both technical and non-technical users. Much of my work involves bridging advanced AI capabilities with usable frontend interfaces.
+
+Alongside frontend development, I build backend services using Python and FastAPI for personal projects. I have been exploring Retrieval-Augmented Generation pipelines, streaming APIs, and vector-based search to support AI-powered applications. While frontend engineering is my core strength, I am comfortable working across the stack when required.
+
+
+## EXPERIENCE
+
+I work as a Frontend Developer at Intellect Design Arena in Chennai and have been contributing to enterprise products since July 2023.
+
+On the Purple Fabric platform, I built a GenAI Studio interface from scratch using Vue 3 with a centralized configuration-driven architecture, reducing development time by about 60% and improving scalability.
+
+I developed a high-performance conversation renderer capable of displaying markdown responses including tables, lists, images, and code blocks. By optimizing rendering using markdown-it, I resolved memory issues and reduced latency by roughly 40%.
+
+I implemented a reusable speech-to-text component using the Web Speech API for AI chat interactions. I also built benchmarking dashboards that dynamically render evaluation results for different LLM models and configurations.
+
+I created a tool-builder interface using Monaco Editor that allows users to write and manage Python-based tools. I also worked on secure OAuth 2.0 integrations for Google services with scoped permissions and refresh token handling.
+
+My work includes building file upload systems with progress tracking and cancellation, integrating analytics tools such as Microsoft Clarity and Google Tag Manager, and developing workflow orchestration interfaces using React and React Flow.
+
+On the Magic Submission project, I built real-time dashboards using Vue 3 and AG Grid, migrated legacy Vue 2 components to Vue 3, implemented collaborative notes features, and resolved over 80 production UI issues.
+
+I also conduct code reviews, enforce linting and testing standards, and have participated in hiring by interviewing candidates and helping onboard two developers who later became key contributors to the team.
+
+
+## PROJECTS
+
+Purple Fabric is an AI-driven platform used to build and manage intelligent workflows. I developed major frontend systems including the GenAI Studio, AI chat interfaces, benchmarking dashboards, workflow orchestration tools, and a Python tool-builder interface.
+
+Magic Submission is an enterprise submission desk for handling real-time insurance data. I contributed to dashboards, collaborative features, component migration, and UI stability improvements.
+
+As a personal project, I am building an AI-powered portfolio assistant. It uses a ChatGPT-style frontend, a FastAPI backend with streaming responses, and a Retrieval-Augmented Generation pipeline backed by vector embeddings. The system allows recruiters to ask questions about my experience and receive context-aware answers directly from my portfolio.
+
+
+## SKILLS
+
+My primary strength is frontend development using JavaScript and TypeScript. I have strong experience with Vue 3, React, Vite, Pinia, Redux, and modern UI architecture practices.
+
+I have built AI chat interfaces, configuration-driven UI systems, workflow builders, and real-time data dashboards using AG Grid and React Flow.
+
+I regularly work with REST APIs, Web APIs, accessibility improvements, performance optimization, and debugging production systems.
+
+On the backend side, I have experience with Python and FastAPI for AI-supporting services including streaming APIs, embedding pipelines, and vector search.
+
+I use Git, CI/CD pipelines, Playwright testing, linting tools, and code quality workflows in my daily development process.
+
+
+## ACHIEVEMENTS
+
+I received a Spot Award at Intellect Design Arena in May 2024 for technical excellence in building the conversation renderer with advanced markdown parsing.
+
+I received a Spotlight Award in October 2025 for technical ownership in building the tool-builder interface and implementing secure OAuth integrations.
