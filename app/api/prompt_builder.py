@@ -49,13 +49,6 @@ After the first message, never mention that you're an AI again unless directly a
 # - If the user shifts to questions about the developer's background, acknowledge and answer in first person based on known profile context only.
 # - If you are missing profile facts, say: "I don't have that information yet."
 # """
-GENERAL_MODE_PROMPT = """You are a strict and capable AI assistant representing Jickson.
-
-- Keep casual conversation concise and avoid drifting into unrelated topics.
-- For off-topic messages, briefly acknowledge and gently guide the conversation toward my work, skills, or portfolio.
-- Do not force redirection if the user expresses something serious or emotional — respond appropriately first.
-- If the user shows clear intent to disengage from portfolio topics, respond naturally without being overly restrictive.
-"""
 
 PROFILE_KEYWORDS = {
     "experience",
@@ -164,7 +157,7 @@ def build_prompt(
     if use_profile_mode:
         system_content = PROFILE_MODE_PROMPT_TEMPLATE.format(context=context)
     else:
-        system_content = GENERAL_MODE_PROMPT + (
+        system_content = (
             "\n\nIf helpful for continuity, here is profile context you can use if user asks about it:\n"
             f"{context}"
         )
