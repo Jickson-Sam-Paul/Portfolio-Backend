@@ -1,55 +1,59 @@
 ## ABOUT
 
-I am a frontend developer with 2.5+ years of professional experience building production-grade web applications, specializing in Vue 3 and React. My focus is on designing scalable, maintainable UI systems that translate complex backend logic into intuitive user experiences.
+I am a Frontend Software Engineer with 3 years of professional experience building scalable, performant, and accessible web applications, specializing in Vue 3 and React. My focus is on designing maintainable UI systems that translate complex backend logic into intuitive user experiences, with a track record of reducing render latency by 40%, accelerating development cycles by 60%, and cutting production errors by 35%.
 
 I currently work at Intellect Design Arena in Chennai, where I contribute to enterprise platforms involving AI workflows, orchestration systems, and large data-heavy applications used by both technical and non-technical users. Much of my work involves bridging advanced AI capabilities with usable frontend interfaces.
 
 Alongside frontend development, I build backend services using Python and FastAPI for personal projects. I have been exploring Retrieval-Augmented Generation pipelines, streaming APIs, and vector-based search to support AI-powered applications. While frontend engineering is my core strength, I am comfortable working across the stack when required.
 
-
 ## EXPERIENCE
 
-I work as a Frontend Developer at Intellect Design Arena in Chennai and have been contributing to enterprise products since July 2023.
+I work as a Frontend Software Engineer at Intellect Design Arena in Chennai and have been contributing to enterprise products since June 2023.
 
-On the Purple Fabric platform, I built a GenAI Studio interface from scratch using Vue 3 with a centralized configuration-driven architecture, reducing development time by about 60% and improving scalability.
+On the Purple Fabric platform (February 2024 – Present), an AI-powered business process automation platform, I architected a GenAI Studio interface from scratch using a centralized configuration-driven system in React and Vue 3, eliminating repetitive scaffolding and cutting feature development time by 60%.
 
-I developed a high-performance conversation renderer capable of displaying markdown responses including tables, lists, images, and code blocks. By optimizing rendering using markdown-it, I resolved memory issues and reduced latency by roughly 40%.
+I engineered a high-performance conversation renderer in Vue with TypeScript and full Markdown support — including code blocks, tables, lists, and images — using markdown-it. By resolving critical memory leaks, I reduced render latency by 40%.
 
-I implemented a reusable speech-to-text component using the Web Speech API for AI chat interactions. I also built benchmarking dashboards that dynamically render evaluation results for different LLM models and configurations.
+I built a visual workflow orchestration tool using React and React Flow, enabling non-technical users to configure and deploy automated processes without engineering support. I also designed and shipped a tool-builder interface using Monaco Editor for custom Python-based tools, paired with secure OAuth 2.0 integrations for Google services with scoped permissions and refresh token handling.
 
-I created a tool-builder interface using Monaco Editor that allows users to write and manage Python-based tools. I also worked on secure OAuth 2.0 integrations for Google services with scoped permissions and refresh token handling.
+I implemented a reusable Speech-to-Text component using the Web Speech API, improving WCAG accessibility in the AI chat interface. I architected a chunked file upload system using Axios with cancellation tokens and real-time progress tracking, improving upload reliability across low-bandwidth environments.
 
-My work includes building file upload systems with progress tracking and cancellation, integrating analytics tools such as Microsoft Clarity and Google Tag Manager, and developing workflow orchestration interfaces using React and React Flow.
+I built an LLM benchmarking dashboard to compare model configurations across quality and latency metrics, consuming RESTful APIs from microservices-based ML backends. I integrated Google Tag Manager and Microsoft Clarity to surface user behavior patterns and error hotspots, driving a 35% reduction in production errors. I also configured Vite-based build pipelines and integrated Jenkins-based CI/CD workflows for automated build, lint, and deployment.
 
-On the Magic Submission project, I built real-time dashboards using Vue 3 and AG Grid, migrated legacy Vue 2 components to Vue 3, implemented collaborative notes features, and resolved over 80 production UI issues.
+I lead frontend code reviews, enforce JavaScript best practices, accessibility guidelines, and performance benchmarks, and have helped interview candidates and onboard developers who became key team contributors.
 
-I also conduct code reviews, enforce linting and testing standards, and have participated in hiring by interviewing candidates and helping onboard two developers who later became key contributors to the team.
-
+On the Magic Submission project (June 2023 – February 2024), a real-time insurance underwriting and submissions platform, I integrated AG Grid in Vue 3 with RESTful APIs for real-time insurance submissions, reducing manual processing overhead by an estimated 25%. I designed and built a collaborative Notes system to standardize cross-team communication between underwriters and operations teams. I led the Vue 2 to Vue 3 migration of the core UI component library, refactoring to the Composition API. I resolved 80+ production UI defects through systematic debugging and root-cause analysis, and established ESLint linting pipelines and Jest/Vitest unit testing practices across the frontend team.
 
 ## PROJECTS
 
-Purple Fabric is an AI-driven platform used to build and manage intelligent workflows. I developed major frontend systems including the GenAI Studio, AI chat interfaces, benchmarking dashboards, workflow orchestration tools, and a Python tool-builder interface.
+**Purple Fabric** is an AI-powered business process automation platform. I developed major frontend systems including the GenAI Studio, AI chat interfaces, LLM benchmarking dashboards, visual workflow orchestration tools, and the Python tool-builder interface.
 
-Magic Submission is an enterprise submission desk for handling real-time insurance data. I contributed to dashboards, collaborative features, component migration, and UI stability improvements.
+**Magic Submission** is an enterprise submission desk for handling real-time insurance underwriting data. I contributed to real-time dashboards, collaborative features, Vue 2-to-3 migration, and UI stability improvements.
+
+## PERSONAL PROJECTS
+
+**FlowCraft** is a visual workflow builder (React, TypeScript, React Flow, Zustand, Tailwind CSS) deployed on Cloudflare Pages. I built a drag-and-drop interface with 11 configurable node types, topological execution simulation with animated state transitions, and persistent workflow storage. It features a Zustand-powered state architecture with topological sort-based execution ordering, node configuration panels, and JSON export, with unit tests validating core execution logic.
+
+**Advanced Components** is a reusable Vue 3 UI library (TypeScript, Storybook, Vite, Prism.js, Plotly) deployed on Cloudflare Pages. I engineered and published 6 production-ready components — CodeEditor, ChatStream, ChartViewer, JsonViewer, ImageToBase64, and VoiceInput — each with full TypeScript props/emits contracts and Storybook documentation, packaged as an installable npm tarball.
+
+**Intentional Browsing** is a privacy-first Chrome productivity extension (JavaScript, Manifest V3, Chrome Storage API) that helps users reduce distracting browsing through configurable Hard Mode blocking and Timed Mode daily usage limits, with all data stored locally in the browser.
 
 As a personal project, I am building an AI-powered portfolio assistant. It uses a ChatGPT-style frontend, a FastAPI backend with streaming responses, and a Retrieval-Augmented Generation pipeline backed by vector embeddings. The system allows recruiters to ask questions about my experience and receive context-aware answers directly from my portfolio.
 
-
 ## SKILLS
 
-My primary strength is frontend development using JavaScript and TypeScript. I have strong experience with Vue 3, React, Vite, Pinia, Redux, and modern UI architecture practices.
+My primary strength is frontend development using JavaScript and TypeScript. I have strong experience with React, Vue 3, Vite, Pinia, Redux, and modern UI architecture practices.
 
-I have built AI chat interfaces, configuration-driven UI systems, workflow builders, and real-time data dashboards using AG Grid and React Flow.
+I have built AI chat interfaces, configuration-driven UI systems, workflow builders, and real-time data dashboards using AG Grid and React Flow. I work regularly with Monaco Editor, Axios, markdown-it, Prism.js, Plotly, and Split.js.
 
-I regularly work with REST APIs, Web APIs, accessibility improvements, performance optimization, and debugging production systems.
+I have solid experience with REST APIs, GraphQL, OAuth 2.0, Web Speech API, and DOM/Web APIs. I focus on responsive design, WCAG accessibility, performance optimization, and memory leak resolution.
 
-On the backend side, I have experience with Python and FastAPI for AI-supporting services including streaming APIs, embedding pipelines, and vector search.
+For testing and quality, I use Jest, Vitest, ESLint, SonarQube, and structured code review workflows. On the DevOps side, I work with Git, GitHub, Jenkins, CI/CD pipelines, Cloudflare Pages, Google Tag Manager, and Microsoft Clarity.
 
-I use Git, CI/CD pipelines, Playwright testing, linting tools, and code quality workflows in my daily development process.
-
+On the backend side, I have experience with Python and FastAPI for AI-supporting services including streaming APIs, embedding pipelines, and vector search. I work within Agile/Scrum teams using JIRA, Confluence, and cross-functional collaboration practices.
 
 ## ACHIEVEMENTS
 
-I received a Spot Award at Intellect Design Arena in May 2024 for technical excellence in building the conversation renderer with advanced markdown parsing.
+I received a Spotlight Award at Intellect Design Arena in October 2025 for technical ownership in architecting the tool-builder interface with Monaco Editor, secure OAuth 2.0 integrations, and adherence to frontend engineering best practices.
 
-I received a Spotlight Award in October 2025 for technical ownership in building the tool-builder interface and implementing secure OAuth integrations.
+I received a Spot Award at Intellect Design Arena in May 2024 for exceptional engineering on the conversation module — advanced Markdown parsing, memory optimization, and render performance improvements.
