@@ -1,6 +1,6 @@
 from typing import AsyncIterator
 from fastapi import APIRouter
-from fastapi.responses import StreamingResponse, Response
+from fastapi.responses import StreamingResponse, Response, FileResponse
 from app.api.prompt_builder import build_prompt
 from app.api.llm import get_llm
 from app.models.chat import ChatRequest
@@ -86,6 +86,10 @@ async def chat_stream(request: ChatRequest) -> StreamingResponse:
         generate_response(user_query, chat_history),
         media_type="text/plain",
     )
+
+@router.get("/download-logs")
+async def download_logs():
+    return FileResponse("chat_logs.jsonl", filename="chat_logs.jsonl")
 
 
 @router.get("/health")
