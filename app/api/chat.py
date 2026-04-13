@@ -4,6 +4,7 @@ from fastapi.responses import StreamingResponse, Response
 from app.api.prompt_builder import build_prompt
 from app.api.llm import get_llm
 from app.models.chat import ChatRequest
+from app.utils.logger import log_chat
 
 router = APIRouter()
 
@@ -24,6 +25,7 @@ async def generate_response(
     user_query: str,
     chat_history: list
 ) -> AsyncIterator[str]:
+    full_response = ""
     try:
         messages = build_prompt(
             user_query=user_query,
@@ -36,7 +38,10 @@ async def generate_response(
             return
         
         async for chunk in llm.stream_completion(messages):
+            full_response += chunk
             yield chunk
+
+        log_chat(user_query, full_response)
             
     except Exception as e:
         yield "The AI assistant is currently unavailable."
